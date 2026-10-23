@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiniSaga Studio - AI Video Series Creator</title>
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <style>
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+      margin: 0; 
+      background: #0f172a; 
+      color: #f8fafc; 
+      display: flex; 
+      flex-direction: column; 
+      min-height: 100vh; 
+    }
+    header { 
+      padding: 2.5rem 1rem; 
+      text-align: center; 
+      border-bottom: 1px solid #1e293b; 
+    }
+    .brand-logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 20px;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 0 2px rgba(56, 189, 248, 0.2);
+    }
+    h1 { 
+      font-size: 2.4rem; 
+      margin: 0.2rem 0; 
+      color: #38bdf8; 
+      letter-spacing: -0.5px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #94a3b8;
+      max-width: 600px;
+      margin: 0.5rem auto 0;
+    }
+    .hero { 
+      max-width: 800px; 
+      margin: 2.5rem auto; 
+      text-align: center; 
+      padding: 0 1.5rem; 
+      flex: 1; 
+    }
+    .hero p { 
+      font-size: 1.15rem; 
+      color: #cbd5e1; 
+      line-height: 1.7; 
+    }
+    .features { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+      gap: 1.5rem; 
+      margin-top: 2.5rem; 
+      text-align: left; 
+    }
+    .card { 
+      background: #1e293b; 
+      padding: 1.5rem; 
+      border-radius: 12px; 
+      border: 1px solid #334155; 
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #38bdf8;
+    }
+    .card h3 { 
+      color: #f1f5f9; 
+      margin-top: 0; 
+      font-size: 1.2rem;
+    }
+    .card p { 
+      font-size: 0.95rem; 
+      color: #94a3b8; 
+      margin-bottom: 0;
+    }
+    footer { 
+      border-top: 1px solid #1e293b; 
+      padding: 2rem 1rem; 
+      text-align: center; 
+      font-size: 0.9rem; 
+      color: #64748b; 
+      background: #0b1120;
+    }
+    footer a { 
+      color: #38bdf8; 
+      text-decoration: none; 
+      margin: 0 1rem; 
+    }
+    footer a:hover { 
+      text-decoration: underline; 
+    }
+    .footer-links {
+      margin-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="MiniSaga Studio Logo" class="brand-logo">
+    <h1>MiniSaga Studio</h1>
+    <p class="tagline">Empowering creators to automate, produce, and publish episodic video series on TikTok.</p>
+  </header>
+
+  <main class="hero">
+    <h2>Official Studio Portal</h2>
+    <p>MiniSaga Studio is a specialized production automation suite designed for content creators. From generating multi-part narrative scripts to rendering high-definition vertical video content, MiniSaga Studio streamlines series creation and enables scheduling directly via TikTok's official Content Posting API.</p>
+
+    <div class="features">
+      <div class="card">
+        <h3>✨ AI Story Architecture</h3>
+        <p>Draft multi-episode narratives with consistent characters and suspenseful hooks engineered for short-form retention.</p>
+      </div>
+      <div class="card">
+        <h3>🎬 Automated Video Rendering</h3>
+        <p>Seamlessly synchronizes voiceovers, visual pacing, animated subtitles, and 9:16 vertical video assets.</p>
+      </div>
+      <div class="card">
+        <h3>🚀 TikTok Direct Publishing</h3>
+        <p>Directly schedule, draft, and publish approved episodes to your TikTok account using secure OAuth 2.0.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 MiniSaga Studio. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="mailto:support@minisagastudio.local">Contact Support</a>
+    </div>
+  </footer>
+</body>
+</html>
